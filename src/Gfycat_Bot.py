@@ -19,7 +19,8 @@ def run_bot(reddit_instance):
             all_comments=submission.comments.list()
             for items in all_comments: #check to prevent duplicate comments in thread
                 user_name=items.comment
-                if user_name=='Gfy_cat_Fixer_Bot':
+                if user_name.author=='Gfy_cat_Fixer_Bot':
+                    print "Duplicate"
                     break
             print("Broken link found")
             unique_URL=submission.url[31:] #extracting unique gfycat identifier from bloated link
@@ -33,5 +34,3 @@ def run_bot(reddit_instance):
 reddit_instance=bot_login()
 while True:
     run_bot(reddit_instance)
-
-
