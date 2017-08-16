@@ -8,7 +8,9 @@ My original bot was [/u/gfy_cat_fixer_bot](https://www.reddit.com/user/gfy_cat_f
 
 This bot makes use of [PRAW](https://praw.readthedocs.io/en/latest/).
 
-[Top 10 most appreciated bots on Reddit (Ranked using the lower bound of Wilson score confidence interval for a Bernoulli parameter](http://i.imgur.com/MLxzJus.png)  
+![Top 10 most appreciated bots on Reddit (Ranked using the lower bound of Wilson score confidence interval for a Bernoulli parameter](http://i.imgur.com/MLxzJus.png)  
+
+[Source for ranked bots](https://goodbot-badbot.herokuapp.com/)
 
 example of bloated gfycat url
 ![A](http://i.imgur.com/SASyqnN.png)
